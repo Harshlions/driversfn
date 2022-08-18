@@ -176,14 +176,72 @@ welcome to DriveSfn…
           <h1>PHASE 1</h1>
 
         </div>
-        <div className="rcard2"></div>
-        <div className="rcard3"></div>
-        <div className="rcard4"></div>
-        <div className="rcard5"></div>
+        <div className="rcard2">
+
+        <h1>PHASE 2</h1>
+
+
+        </div>
+        <div className="rcard3">
+
+        <h1>PHASE 3</h1>
+
+
+        </div>
+        <img id='road' src="/img/road.png" alt="" />
+        <img id='sp45' src="/img/sp45.png" alt="" />
+        <img id='sp50' src="/img/50m.png" alt="" />
+
+        <div className="rcard4">
+
+        <h1>PHASE 4</h1>
+
+
+        </div>
+        <div className="rcard5">
+
+            <h1>further</h1>
+
+        </div>
 
       </div>
 
+      <div className="ourteam">
+
+      <h1>OUR TEAM</h1> 
+    <div className="pos">
+      <div className="ceo">
+        <img id='' src="/img/ceo.png" alt="" />
+        <h5>Yasin Kart</h5>
+        <p>CEO</p>
+      </div>
+      <div className="cso">
+       <img id='' src="/img/cso.png" alt="" />
+       <h5></h5>
+       <p></p>
+      </div>
+      <div className="cto">
+        <img id='' src="/img/cto.png" alt="" />
+        <h5></h5>
+        <p></p>
+      </div>
+      <div className="cmo">
+       <img id='' src="/img/cmo.png" alt="" />
+       <h5></h5>
+       <p></p>
+      </div>
+      <div className="ccm">
+       <img id='' src="/img/ccm.png" alt="" />
+       <h5></h5>
+       <p></p>
+      </div>
     </div>
+      
+    </div>
+
+    </div>
+
+    
 
  
 

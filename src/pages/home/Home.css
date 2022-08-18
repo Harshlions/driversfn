@@ -524,10 +524,10 @@ color: #000000;
 .roadmap {
     position: relative;
     width: 1513px;
-    height: 770px;
-    top: 137rem;
+    height: 45rem;
+    top: 138rem;
 
-    background: linear-gradient( #D1D4D5  100%, #FCFCFC 0%)
+    background: linear-gradient(360deg, #FCFCFC 0%, #D1D4D5 100%)
 
 }
 
@@ -555,26 +555,189 @@ color: #000000;
 .rcards h1 {
 
     position: absolute;
-width: 174px;
-height: 31px;
+    width: 250px;
+    height: 31px;
+    left: 0rem;
+    top: 2rem;
 
-font-family: 'Monument Extended';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 31px;
-/* identical to box height, or 103% */
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+    /* identical to box height, or 103% */
 
 
-/* primary gradient */
+    /* primary gradient */
 
-background: linear-gradient(111.32deg, #E21E04 11.67%, #E26104 89.44%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
+    background: linear-gradient(111.32deg, #E21E04 11.67%, #E26104 89.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 
 
 }
 
+.rcard1,
+.rcard2,
+.rcard3 {
+    
+position: absolute;
+width: 246px;
+height: 324px;
+
+background: linear-gradient(161.83deg, #DCDEDB -5.29%, #FCFCFC 103.03%);
+box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5);
+border-radius: 40px;
+
+}
+
+.rcard4,
+.rcard5 {
+    position: absolute;
+    width: 241px;
+    height: 317px;
+
+    background: linear-gradient(161.83deg, #FCFCFC -5.29%, #DCDEDB 103.03%);
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    top: 45rem;
+}
+
+.rcard1,
+.rcard2 {
+    top: 20rem;
+}
+
+.rcard1 {
+    left: 5rem;
+}
+
+.rcard2 {
+    left: 25rem;
+}
+
+.rcard3 {
+
+    top: 12rem;
+    left: 65rem;
+
+}
+
+.rcard4 {
+    left: 53rem;
+}
+
+.rcard5 {
+    left: 72rem;
+}
+
+.roadmap p {
+    
+position: absolute;
+width: 186px;
+height: 194px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 210px;
+padding-bottom: 2rem;
+
+color: #000000;
+top: 30rem;
+}
 
 
+
+
+#road {
+
+    position: absolute;
+    width: 1513px;
+    height: 205px;
+    top: 35rem;
+
+}
+
+#sp45 {
+    
+    position: absolute;
+    width: 188px;
+    height: 170px;
+    top: 24rem;
+    left: 47rem;
+}
+
+#sp50 {
+
+    position: absolute;
+
+    left: 0px;
+    top: 50rem;
+
+}
+
+.ourteam h1 {
+    position: absolute;
+    width: 50rem;
+    height: 27px;
+    top: 70rem;
+    left: 20rem;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 81px;
+    line-height: 27px;
+    /* identical to box height, or 33% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #2D3E3B;
+}
+
+.pos h5 {
+    width: 94px;
+    height: 17px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.2437px;
+   
+    /* identical to box height, or 94% */
+    
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pos p {
+    width: 29px;
+    height: 17px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.4118px;
+    
+    /* identical to box height, or 121% */
+
+
+    color: #000000;
+
+    opacity: 0.6;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
