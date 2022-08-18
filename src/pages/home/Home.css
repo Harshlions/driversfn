@@ -1,0 +1,580 @@
+@import url('http://fonts.cdnfonts.com/css/monument-extended');
+
+.banner {
+
+    position: relative;
+
+}
+
+
+#banner {
+
+    position: absolute;
+    width: 100%;
+    height: 829px;
+    left: 0px;
+    top: -52px;
+
+   
+}
+
+.logo {
+    
+    position: absolute;
+    width: 333px;
+    height: 100px;
+    left: 931px;
+    top: 43px;
+
+}
+
+.banner h1 {
+    position: absolute;
+    width: 50rem;
+    height: 27px;
+    left: 45.5rem;
+    top: 20rem;
+
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 67px;
+    line-height: 27px;
+    /* identical to box height, or 40% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.banner h2 {
+    position: absolute;
+    width: 50rem;
+    height: 16px;
+    left: 61rem;
+    top: 24rem;
+    
+    color: aliceblue;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 16px;
+    /* identical to box height, or 17% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    text-transform: uppercase;
+}
+
+#iicon {
+    width: 216px;
+    height: 64px;
+    top: 35rem;
+    left: 57rem;
+    position: absolute;
+ }
+
+
+ #aicon {
+    width: 216px;
+    height: 64px;
+    top: 35rem;
+    left: 72rem;
+    position: absolute;
+ }
+
+ .fade {
+    position: absolute;
+    width: 100%;
+    height: 97px;
+    left: 0px;
+    top: 680px;
+
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #D9D9D9 100%);
+ }
+
+
+.ques {
+    position: absolute;
+    width: 360px;
+    height: 88px;
+    left: 560px;
+    top: 850px;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, #DBDDDB 100%);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 190px;
+}
+
+.ques h3 {
+    position: absolute;
+    width: 500px;
+    height: 31px;
+    left: 57px;
+    top: 2px;
+    
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 31px;
+    /* identical to box height, or 111% */
+    
+    
+    color: #2D3E3B;
+    
+}
+
+#s50km {
+    position: absolute;
+    width: 277px;
+    height: 352px;
+    left: 980px;
+    top: 844px;
+    z-index: -1;
+}
+
+.desc {
+    position: absolute;
+    width: 951px;
+    height: 124px;
+    left: 281px;
+    top: 991px;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, #DBDDDB 100%);
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+}
+
+.desc h2 {
+    position: absolute;
+width: 888px;
+height: 62px;
+left: 31px;
+top: 20px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 31px;
+/* or 148% */
+
+text-align: center;
+
+color: #000000;
+
+opacity: 0.7;
+}
+
+
+.card1,
+.card2,
+.card3
+ {
+    position: absolute;
+    width: 345.04px;
+    height: 454px;
+  
+    top: 80rem;
+    
+    
+    background: linear-gradient(171.58deg, #FEFEFE -4.77%, #F5F9F3 101.46%) #fff;
+    box-shadow: 9px 11px 27px rgba(0, 0, 0, 0.5);
+    border-radius: 83.99px;
+}
+
+.card1 {
+    left: 5rem;
+}
+
+.card2 {
+    left: 35rem;
+}
+
+.card3 {
+    left: 65rem;
+}
+
+.cards h3{
+    width: 50rem;
+    height: 34px;
+    top: 11rem;
+    left: 7rem;
+    position: absolute;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    display: flex;
+    text-align: center;
+
+    color: #2D3E3B;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.cards p {
+    width: 269px;
+    height: 132px;
+
+    position: absolute;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    top: 15rem;
+    color: #000000;
+    left: 2rem;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card1 svg {
+    left: 3rem;
+    top: 3rem;
+}
+
+
+.motivation h1 {
+    position: absolute;
+width: 100rem;
+height: 96px;
+
+top: 110rem;
+
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2D3E3B;
+}
+
+.motivation hr {
+    position: absolute;
+    top: 120rem;
+    left: 40rem;
+    width: 20rem;
+    height: 0px;
+
+    border: 2px solid #E25103;
+}
+
+.motivation p {
+    
+position: absolute;
+width: 1271px;
+height: 288px;
+top: 120rem;
+left: 5rem;
+
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+}
+
+.diffrences {
+    position: relative;
+    width: 1514px;
+    height: 838px;
+    top: 140rem;
+
+    background: linear-gradient( #FCFCFC 0%, #FAFAFA 100%);
+    
+}
+
+.sq1 {
+    position: absolute;
+    width: 457px;
+    height: 487px;
+    left: 202px;
+    top: 239px;
+
+    background: linear-gradient(44.78deg, rgba(201, 201, 201, 0.82) 1.86%, #FBFBFB 152.48%);
+    border-radius: 29.7243px 0px 0px 29.7243px;
+}
+
+.sq1 p {
+    position: absolute;
+    width: 406.48px;
+    height: 433.23px;
+    left: 244px;
+    top: 304px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.5777px;
+    line-height: 28px;
+
+color: #000000;
+}
+
+.rect1 {
+    position: absolute;
+    width: 324px;
+    height: 570px;
+    left: 659px;
+    top: 187px;
+
+    background: linear-gradient(180deg, #FFFFFF -15.48%, #CBCBCB 100%);
+    mix-blend-mode: multiply;
+    border-radius: 29.7243px;
+
+}
+
+.rect2 {
+    position: absolute;
+    width: 324px;
+    height: 570px;
+    left: 983px;
+    top: 187px;
+
+    background: linear-gradient(180deg, #FFFFFF -15.48%, #CBCBCB 100%);
+    mix-blend-mode: multiply;
+    border-radius: 29.7243px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.diffrences img {
+
+    top: -3rem;
+    left: 4rem;
+
+}
+
+.statistics {
+    position: relative;
+    width: 1512px;
+    height: 770px;
+    top: 138rem;
+
+    background: linear-gradient(180deg, #FCFCFC 0%, #D1D4D5 100%);
+}
+
+.statistics h1 {
+    position: absolute;
+    width: 426px;
+    height: 27px;
+    left: 543.5px;
+    top: 82.97px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80.9748px;
+    line-height: 27px;
+    /* identical to box height, or 33% */
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D3E3B;
+}
+.statistics img {
+    position: absolute;
+    width: 50rem;
+    height: 500px;
+    left: 0;
+    top: 217.93px;
+    z-index: 3;
+    /* primary gradient */
+}
+
+.drect1 {
+    position: absolute;
+    width: 310.93px;
+    height: 90.97px;
+    left: 760px;
+    top: 15rem;
+   
+    background: linear-gradient(180deg, #FFFFFF 24.27%, #D2D2D2 100%);
+    box-shadow: 1.99938px 4.99844px 6.99782px rgba(0, 0, 0, 0.25);
+    border-radius: 102.968px;
+}
+
+.drect2 {
+    position: absolute;
+    width: 310.93px;
+    height: 90.97px;
+    left: 900px;
+    top: 23.5rem;
+   
+    background: linear-gradient(180deg, #FFFFFF 24.27%, #D2D2D2 100%);
+    box-shadow: 1.99938px 4.99844px 6.99782px rgba(0, 0, 0, 0.25);
+    border-radius: 102.968px;
+}
+
+.drect3 {
+    position: absolute;
+    width: 310.93px;
+    height: 90.97px;
+    left: 900px;
+    top: 31rem;
+   
+    background: linear-gradient(180deg, #FFFFFF 24.27%, #D2D2D2 100%);
+    box-shadow: 1.99938px 4.99844px 6.99782px rgba(0, 0, 0, 0.25);
+    border-radius: 102.968px;
+}
+
+.drect4 {
+    position: absolute;
+    width: 310.93px;
+    height: 90.97px;
+    left: 760px;
+    top: 40rem;
+   
+    background: linear-gradient(180deg, #FFFFFF 24.27%, #D2D2D2 100%);
+    box-shadow: 1.99938px 4.99844px 6.99782px rgba(0, 0, 0, 0.25);
+    border-radius: 102.968px;
+}
+
+.drects h1 {
+    width: 199px;
+    height: 32px;
+    left: 2rem;
+    top: 0rem;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 32px;
+    text-align: left;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.drects p {
+    position: absolute;
+    width: 222px;
+    height: 17px;
+    left: 2rem;
+    top: 3rem;
+
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.drects h2 {
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    left: 9rem;
+    top: 0;
+
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#sp {
+    position: absolute;
+    width: 473px;
+    height: 622px;
+    left: 1025px;
+    top: 75px;
+}
+
+.roadmap {
+    position: relative;
+    width: 1513px;
+    height: 770px;
+    top: 137rem;
+
+    background: linear-gradient( #D1D4D5  100%, #FCFCFC 0%)
+
+}
+
+.roadmap h1 {
+    
+    position: absolute;
+    width: 416px;
+    height: 27px;
+    top: 8rem;
+    left: 30rem;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 81px;
+    line-height: 27px;
+
+    /* identical to box height, or 33% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #2D3E3B;
+}
+
+.rcards h1 {
+
+    position: absolute;
+width: 174px;
+height: 31px;
+
+font-family: 'Monument Extended';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 31px;
+/* identical to box height, or 103% */
+
+
+/* primary gradient */
+
+background: linear-gradient(111.32deg, #E21E04 11.67%, #E26104 89.44%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+}
+
+
+
