@@ -685,6 +685,7 @@ top: 30rem;
     position: relative;
     width: 100%;
     top: 170rem;
+    height: 10rem;
 }
 
 .ourteam h1 {
@@ -731,10 +732,10 @@ top: 30rem;
     width: 28px;
     height: 17px;
     
-    font-family: 'Inter';
+   
     font-style: normal;
     font-weight: 400;
-    font-size: 13.4118px;
+    font-size: 16px;
     line-height: 16px;
     /* identical to box height, or 121% */
     
@@ -750,3 +751,93 @@ top: 30rem;
     flex-grow: 0;
 }
 
+.pos {
+    position: absolute;
+}
+
+.ceo,
+.cso,
+.cto,
+.ccm,
+.cmo {
+    position: absolute;
+    top: 20rem;
+    left: 10rem;
+}
+
+.cso {
+    left: 28rem;
+}
+
+.cto {
+    left: 43rem;
+}
+
+.cmo {
+    left: 58rem;
+}
+
+.ccm {
+    left: 73rem;
+}
+
+
+.joinin h1 {
+    position: absolute;
+    width: 200rem;
+    height: 300rem;
+    left: 369px;
+    top: 5px;
+
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 81px;
+    line-height: 27px;
+    /* identical to box height, or 33% */
+    color: red;
+
+   
+
+}
+
+.joinin {  
+    position: relative;
+    width: 1513px;
+    height: 943px;
+    top: 210rem;
+
+    background: linear-gradient(180deg, #FCFCFC 0%, #D1D4D5 100%);
+}
+
+#twitter {
+    position: absolute;
+    left: 33.27%;
+    top: 17.71%;
+   
+
+}
+
+#dis {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 652.12px;
+    top: 161px;
+}
+
+#ins {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 801.24px;
+    top: 161px;
+}
+
+#tele {
+    position: absolute;
+    width: 64.04px;
+    height: 64px;
+    left: 950.63px;
+    top: 162px;
+}
