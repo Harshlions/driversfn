@@ -205,41 +205,41 @@ welcome to DriveSfn…
         </div>
 
       </div>
+      </div>
+    
+    <div className="ourteam">
+      <h1>OUR TEAM</h1>
+        <div className="pos">
+          
+            <img id='ceo' src="/img/ceo.png" alt="" />
+                  <h3>Yasin Kart</h3>
+                  <p>ceo</p>
+            
+            
+            <img src="/img/cso.png" alt="" />
+                 <h3>Sophie Braun</h3>
+                  <p>cso</p>
+          
+           
+            <img src="/img/cto.png" alt="" />
+                <h3>Roshan Vadassery</h3>
+                  <p>cto</p>
+           
+           
+            <img  src="/img/cmo.png" alt="" />
+                 <h3>Selina Aley </h3>
+                  <p>cmo</p>
+            
+          
+            <img src="/img/ccm.png" alt="" />
+                 <h3>Robin Pranke</h3>
+                  <p>ccm</p>
+          
 
-      <div className="ourteam">
-
-      <h1>OUR TEAM</h1> 
-    <div className="pos">
-      <div className="ceo">
-        <img id='' src="/img/ceo.png" alt="" />
-        <h5>Yasin Kart</h5>
-        <p>CEO</p>
-      </div>
-      <div className="cso">
-       <img id='' src="/img/cso.png" alt="" />
-       <h5></h5>
-       <p></p>
-      </div>
-      <div className="cto">
-        <img id='' src="/img/cto.png" alt="" />
-        <h5></h5>
-        <p></p>
-      </div>
-      <div className="cmo">
-       <img id='' src="/img/cmo.png" alt="" />
-       <h5></h5>
-       <p></p>
-      </div>
-      <div className="ccm">
-       <img id='' src="/img/ccm.png" alt="" />
-       <h5></h5>
-       <p></p>
-      </div>
-    </div>
-      
+        </div>
     </div>
 
-    </div>
+    
 
     
 
