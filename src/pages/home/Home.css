@@ -39,7 +39,7 @@
 
     background-color: transparent;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 67px;
     line-height: 27px;
     /* identical to box height, or 40% */
@@ -172,84 +172,29 @@ opacity: 0.7;
 }
 
 
-.card1,
-.card2,
-.card3
- {
-    position: absolute;
-    width: 345.04px;
-    height: 454px;
-  
-    top: 80rem;
-    
-    
-    background: linear-gradient(171.58deg, #FEFEFE -4.77%, #F5F9F3 101.46%) #fff;
-    box-shadow: 9px 11px 27px rgba(0, 0, 0, 0.5);
-    border-radius: 83.99px;
+.cards {
+    position: relative;
+
 }
 
 .card1 {
-    left: 5rem;
+    position: absolute;
+    left: 37rem;
+    top:  80rem;
 }
 
 .card2 {
-    left: 35rem;
+    position: absolute;
+    left: 7rem;
+    top:  81rem;
 }
 
 .card3 {
-    left: 65rem;
-}
-
-.cards h3{
-    width: 50rem;
-    height: 34px;
-    top: 11rem;
-    left: 7rem;
     position: absolute;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 34px;
-    text-align: center;
-    display: flex;
-    text-align: center;
-
-    color: #2D3E3B;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    left: 67rem;
+    top:  81rem;
 }
 
-.cards p {
-    width: 269px;
-    height: 132px;
-
-    position: absolute;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    top: 15rem;
-    color: #000000;
-    left: 2rem;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.card1 svg {
-    left: 3rem;
-    top: 3rem;
-}
 
 
 .motivation h1 {
@@ -322,19 +267,28 @@ color: #000000;
     position: absolute;
     width: 406.48px;
     height: 433.23px;
-    left: 244px;
-    top: 304px;
+    left: 24px;
+    top: 30px;
 
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18.5777px;
     line-height: 28px;
 
-color: #000000;
+    color: #000000;
+}
+
+#sq1i{
+    position: absolute;
+    width: 112px;
+    height: 141px;
+    left: 374px;
+    top: 125px;
+    z-index: 3;
 }
 
 .rect1 {
-    position: absolute;
+    position: relative;
     width: 324px;
     height: 570px;
     left: 659px;
@@ -343,6 +297,22 @@ color: #000000;
     background: linear-gradient(180deg, #FFFFFF -15.48%, #CBCBCB 100%);
     mix-blend-mode: multiply;
     border-radius: 29.7243px;
+
+}
+
+#rect1i {
+    position: absolute;
+    width: 151px;
+    height: 45px;
+    left: 738px;
+    top: 116px;
+}
+
+#tick,
+#cross {
+    position: absolute;
+    top: 7rem;
+    left: 9rem;
 
 }
 
@@ -357,6 +327,44 @@ color: #000000;
     mix-blend-mode: multiply;
     border-radius: 29.7243px;
     transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.rect2i {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 181px;
+    height: 45px;
+    left: 1048px;
+    top: 116px;
+
+    background: linear-gradient(92.86deg, rgba(255, 255, 255, 0.5) -4.79%, rgba(142, 142, 142, 0.18) 113.72%);
+    mix-blend-mode: normal;
+    border: 3px solid rgba(167, 167, 167, 0.13);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 56px;
+}
+
+.rect2i p {
+    position: absolute;
+    width: 122px;
+    height: 28px;
+    left: 15px;
+    top: -3px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    /* or 117% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
 }
 
 .diffrences img {
@@ -634,24 +642,22 @@ border-radius: 40px;
     left: 72rem;
 }
 
-.roadmap p {
+
+
+.rcards ul {
+    position: absolute;
+    width: 186px;
+    height: 236px;
+    top: 5rem;
+
     
-position: absolute;
-width: 186px;
-height: 194px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 210px;
-padding-bottom: 2rem;
-
-color: #000000;
-top: 30rem;
+    color: #000000;
 }
-
-
 
 
 #road {
@@ -786,7 +792,7 @@ top: 30rem;
     position: absolute;
     width: 200rem;
     height: 300rem;
-    left: 369px;
+    left: 300px;
     top: 5px;
 
     
@@ -812,8 +818,8 @@ top: 30rem;
 
 #twitter {
     position: absolute;
-    left: 33.27%;
-    top: 17.71%;
+    left: 29.27%;
+    top: 21.71%;
    
 
 }
@@ -822,22 +828,333 @@ top: 30rem;
     position: absolute;
     width: 65px;
     height: 65px;
-    left: 652.12px;
-    top: 161px;
+    left: 600.12px;
+    top: 21.71%;
 }
 
 #ins {
     position: absolute;
     width: 65px;
     height: 65px;
-    left: 801.24px;
-    top: 161px;
+    left: 760.24px;
+    top: 21.71%;
 }
 
 #tele {
     position: absolute;
     width: 64.04px;
     height: 64px;
-    left: 950.63px;
-    top: 162px;
+    left: 910.63px;
+    top: 21.71%;
 }
+
+.joinin h2 {
+
+    position: absolute;
+    width: 100rem;
+    height: 27px;
+    left: 214px;
+    top: 331px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 81px;
+    line-height: 27px;
+    /* identical to box height, or 33% */
+
+
+    color: #2D3E3B;
+
+}
+
+input {
+    position: absolute;
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+
+    width: 454px;
+    height: 51px;
+    top: 35rem;
+    left: 20rem;
+
+    background: rgb(239, 239, 239);
+    border: 1px solid rgba(255, 255, 255, 0.79);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sbtn {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px;
+    gap: 10px;
+
+    width: 194px;
+    height: 51px;
+    top: 35rem;
+    left: 50rem;
+
+    /* primary gradient */
+
+    background: linear-gradient(111.32deg, #E21E04 11.67%, #E26104 89.44%);
+    border-radius: 80px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.sbtn p {
+    width: 107px;
+    height: 27px;
+
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    /* identical to box height, or 193% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#sp1 {
+    position: absolute;
+    top: 20rem;
+    left: 70%;
+    
+}
+
+footer {
+    position: relative;
+    width: 1513px;
+    height: 266px;
+    top: 210rem;
+
+    background: #707573;
+}
+
+#logo1 {
+    position: absolute;
+    width: 227.76px;
+    height: 68.52px;
+    left: 50px;
+    top: 70px;
+}
+
+footer hr {
+    position: absolute;
+    left: 3.23%;
+    right: 8.23%;
+    top: 65.23%;
+    
+
+    border: 1px solid #E4E8EC;
+}
+
+#iicon1 {
+    width: 216px;
+    height: 64px;
+    top: 5rem;
+    left: 57rem;
+    position: absolute;
+ }
+
+
+ #aicon1 {
+    width: 216px;
+    height: 64px;
+    top: 5rem;
+    left: 72rem;
+    position: absolute;
+ }
+
+ footer p {
+    position: absolute;
+    width: 302px;
+    height: 24px;
+    left: 3.23%;
+    top: 190px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* or 100% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.257143px;
+
+    color: #1B1B1B;
+
+ }
+
+ footer h5 {
+    
+    position: absolute;
+    width: 135px;
+    height: 24px;
+    left: 509px;
+    top: 180px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* or 100% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.257143px;
+
+    color: #1B1B1B;
+ }
+
+ footer h6 {
+    position: absolute;
+    width: 508px;
+    height: 24px;
+    left: 853px;
+    top: 180px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    text-align: right;
+    letter-spacing: 0.257143px;
+
+    color: #92989F;
+ }
+
+ @media only screen and (max-width: 600px) {
+    #banner {
+        top: 0rem;
+        height: 245px;
+    }
+    .logo {
+        width: 400px;
+        height: 30px;
+        left: 115px;
+        top: 20px;
+    }
+
+    .banner h1 {
+        position: absolute;
+        width: 50rem;
+        height: 27px;
+        left: -5rem;
+        top: 6rem;
+        font-size: 20px;
+    }
+
+    .banner h2 {
+        position: absolute;
+        width: 50rem;
+        height: 16px;
+        left: 16rem;
+        top: 7rem;
+        font-size: 25px;        
+    }
+
+    #iicon {
+        width: 60px;
+        height: 20px;
+        top: 12rem;
+        left: 15rem;
+        position: absolute;
+     }
+
+     #aicon {
+        width: 60px;
+        height: 20px;
+        top: 12rem;
+        left: 20rem;
+        position: absolute;
+     }
+
+     .fade {
+        position: absolute;
+        width: 100%;
+        height: 76px;
+        left: 0px;
+        top: 170px;
+     }
+
+     .ques {
+        position: absolute;
+        width: 360px;
+        height: 88px;
+        left: 20px;
+        top: 280px;
+    }
+
+    .desc {
+        position: absolute;
+        width: 358px;
+        height: 162px;
+        left: 16px;
+        top: 400px;
+    }
+
+    .desc h2 {
+        position: absolute;
+    width: 311px;
+    height: 155px;
+    left: 23px;
+    top: 4px;
+
+
+    font-size: 14px;
+
+    }
+
+    .card1 {
+        position: absolute;
+        left: 3rem;
+        top:  38rem;
+    }
+    
+    .card2 {
+        position: absolute;
+        left: 3rem;
+        top:  68rem;
+    }
+    
+    .card3 {
+        position: absolute;
+        left: 3rem;
+        top:  98rem;
+    }
+
+ }
