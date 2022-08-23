@@ -343,7 +343,7 @@ welcome to DriveSfn…
         </div>
         <h2>Join our community today!</h2>
       <div className="subs">
-      <input type="email"/>
+      <input type="email" title='enter email here'/>
       <button className='sbtn'>
         <p>
            subscribe 
