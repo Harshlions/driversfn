@@ -136,7 +136,7 @@
     height: 352px;
     left: 980px;
     top: 844px;
-    z-index: -1;
+    z-index: 1;
 }
 
 .desc {
@@ -146,7 +146,7 @@
     left: 281px;
     top: 991px;
 
-    background: linear-gradient(180deg, #FFFFFF 0%, #DBDDDB 100%);
+    background: linear-gradient(180eg, #FFFFFF 0%, #DBDDDB 100%);
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.7);
     border-radius: 50px;
 }
@@ -288,7 +288,7 @@ color: #000000;
 }
 
 .rect1 {
-    position: relative;
+    position: absolute;
     width: 324px;
     height: 570px;
     left: 659px;
@@ -410,52 +410,37 @@ color: #000000;
     /* primary gradient */
 }
 
-.drect1 {
+#dr1{
     position: absolute;
     width: 310.93px;
     height: 90.97px;
-    left: 760px;
-    top: 15rem;
-   
-    background: linear-gradient(180deg, #FFFFFF 24.27%, #D2D2D2 100%);
-    box-shadow: 1.99938px 4.99844px 6.99782px rgba(0, 0, 0, 0.25);
-    border-radius: 102.968px;
+    left: 810px;
+    top: 272px;
 }
 
-.drect2 {
+#dr2{
     position: absolute;
-    width: 310.93px;
+    width: 302.93px;
     height: 90.97px;
     left: 900px;
-    top: 23.5rem;
-   
-    background: linear-gradient(180deg, #FFFFFF 24.27%, #D2D2D2 100%);
-    box-shadow: 1.99938px 4.99844px 6.99782px rgba(0, 0, 0, 0.25);
-    border-radius: 102.968px;
+    top: 386px;
+    
 }
 
-.drect3 {
+#dr3{
     position: absolute;
-    width: 310.93px;
-    height: 90.97px;
+    width: 349.93px;
+    height: 205.94px;
     left: 900px;
-    top: 31rem;
-   
-    background: linear-gradient(180deg, #FFFFFF 24.27%, #D2D2D2 100%);
-    box-shadow: 1.99938px 4.99844px 6.99782px rgba(0, 0, 0, 0.25);
-    border-radius: 102.968px;
+    top: 387px;
 }
 
-.drect4 {
+#dr4{
     position: absolute;
     width: 310.93px;
     height: 90.97px;
-    left: 760px;
-    top: 40rem;
-   
-    background: linear-gradient(180deg, #FFFFFF 24.27%, #D2D2D2 100%);
-    box-shadow: 1.99938px 4.99844px 6.99782px rgba(0, 0, 0, 0.25);
-    border-radius: 102.968px;
+    left: 810.76px;
+    top: 610.83px;
 }
 
 .drects h1 {
@@ -790,7 +775,7 @@ border-radius: 40px;
 
 .joinin h1 {
     position: absolute;
-    width: 200rem;
+    width: 70rem;
     height: 300rem;
     left: 300px;
     top: 5px;
@@ -909,7 +894,7 @@ input {
 
     /* primary gradient */
 
-    background: linear-gradient(111.32deg, #E21E04 11.67%, #E26104 89.44%);
+   background-color: #E21E04;
     border-radius: 80px;
 
     /* Inside auto layout */
@@ -1252,9 +1237,11 @@ footer hr {
     height: 666px;
     left: 190px;
     top: 75px;
+    margin: 0%;
+    border: 0%;
 
     background: linear-gradient(180deg, #FFFFFF -15.48%, #CBCBCB 100%);
-    mix-blend-mode: multiply;
+
     
     }
 
@@ -1316,7 +1303,6 @@ footer hr {
     left: 3px;
     top: 0px;
 
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 10px;
@@ -1357,84 +1343,72 @@ footer hr {
     top: 230px;
 }
 
-.drect1 {
-    position: absolute;
-    width: 310.93px;
-    height: 90.97px;
-    left: 50px;
-    top: 31rem;
-}
-
-.drect2 {
-    position: absolute;
-    width: 310.93px;
-    height: 90.97px;
-    left: 50px;
-    top: 40.5rem;
-}
-
-.drect3 {
-    position: absolute;
-    width: 310.93px;
-    height: 90.97px;
-    left: 50px;
-    top: 51rem;
-}
-
-.drect4 {
-    position: absolute;
-    width: 310.93px;
-    height: 90.97px;
-    left: 50px;
-    top: 60rem;
-}
-
-.drects h1 {
-    width: 199px;
-    height: 32px;
-    left: 2rem;
-    top: 0rem;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2rem;
-
-}
-
 #sp {
     position: absolute;
-    width: 303px;
+    width: 250px;
     height: 300px;
-    left: 100px;
-    top: 150px;
+    left: 130px;
+    top: 180px;
+}
+
+#dr1{  
+    position: absolute;
+    width: 303px;
+    height: 80.4px;
+    left: 33px;
+    top: 470px;
+}
+
+#dr2{
+    position: absolute;
+    width: 303px;
+    height: 80.4px;
+    left: 33px;
+    top: 600px;
+    
+}
+
+#dr3{
+    position: absolute;
+    width: 303px;
+    height: 55.73px;
+    left: 33px;
+    top: 700px;
+}
+
+#dr4{
+    position: absolute;
+    width: 303px;
+    height: 80.4px;
+    left: 33px;
+    top: 900px;
 }
 
 .roadmap {
     position: relative;
     width: 100%;
-    height: 75rem;
+    height: 65rem;
     top: 138rem;
 }
 
 #road {
-    left: -13rem;
     position: absolute;
-    width: 1000px;
-    height: 200px;
-    top: 37rem;
-    transform: rotate(90deg);
-
+    width: 706px;
+    height: 103px;
+    left: -160px;
+    top: 543px;
+    transform: rotate(-90deg);
 }
 
-.roadmap h1 {
-    
+.roadmap h1 { 
     position: absolute;
-    width: 416px;
-    height: 27px;
-    top: 5rem;
-    left: 1rem;
+    width: 148px;
+    height: 7px;
+    left: 55px;
+    top: 20px;
 
-    font-size: 60px;
+    font-weight: 700;
+    font-size: 50px;
 }
 
 .rcards h1 {
@@ -1443,6 +1417,20 @@ footer hr {
     width: 200px;
     height: 310px;
     left: -20px;
+    top: 10px;
+    
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.rcard1 h1 {
+
+    position: absolute;
+    width: 200px;
+    height: 310px;
+    left: -35px;
     top: 10px;
     
     font-family: 'Monument Extended';
@@ -1467,10 +1455,11 @@ footer hr {
 
 .rcard1 {
     position: absolute;
-    width: 153.25px;
-    height: 254px;
+    width: 123.25px;
+    height: 185px;
     left: 16px;
     top: 300px;
+    z-index: 2;
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -1479,53 +1468,60 @@ footer hr {
 .rcards ul {
 
     position: absolute;
-width: 110px;
-height: 144px;
-left: 2px;
-top: 52px;
+    width: 110px;
+    height: 144px;
+    left: -10px;
+    top:42px;
 
-font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
 
+    color: #000000;
 
 }
 
 .rcard2 {
     position: absolute;
-    width: 203px;
-    height: 273px;
-    left: 288px;
+    width: 163px;
+    height: 183px;
+    left: 190px;
     top: 350px;
+    z-index: 2;
 }
 
 .rcard2 ul {
 
     position: absolute;
-    width: 135px;
-    height: 244px;
-    top: 50px;
-    
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-    
-    color: #000000;
+width: 135px;
+height: 144px;
+left: -12px;
+top: 50px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+
+color: #000000;
 }
 
 .rcard3 {
     position: absolute;
-    width: 193.25px;
-    height: 330px;
+    width: 144px;
+    height: 217px;
     left: 16px;
-    top: 800px;
+    top: 600px;
 }
 
 .rcard4 {
     position: absolute;
-    width: 235px;
-    height: 265px;
-    left: 290px;
-    top: 925px;
+    width: 165px;
+    height: 183px;
+    left: 190px;
+    top: 760px;
+    z-index: 2;
 
     background: linear-gradient(180deg, #F1F1F0 0%, #E2E3E1 100%);
     border-radius: 20px;
@@ -1533,23 +1529,23 @@ font-size: 13px;
 
 .rcard4 ul {
     position: absolute;
-width: 191px;
-height: 137px;
-left: 5px;
-top: 35px;
-
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 25px;
-
-color: #000000;
+    width: 151px;
+    height: 137px;
+    left: -15px;
+    top: 40px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    
+    color: #000000;
 }
 
 .rcard4 h1 {
     
     font-size: 25px;
-    left: 20px;
+    left: -20px;
     top: .1rem;
 }
 
@@ -1561,18 +1557,25 @@ color: #000000;
 
 #sp50 {
     position: absolute;
+    
+    width: 15rem;
+    left: 9rem;
+    top: 40rem;
+    z-index: 1;
+}
 
-    left: 17rem;
-    top: 48rem;
+#s50km {
+    left: -6rem;
+    top: 270rem;
 }
 
 #sp45 {
     
     position: absolute;
-    width: 188px;
-    height: 170px;
-    top: 38rem;
-    left: 0rem;
+    width: 7rem;
+    height: 7rem;
+    top: 31rem;
+    left: 1rem;
 }
 
 .ourteam {
@@ -1583,68 +1586,68 @@ color: #000000;
 }
 
 .ourteam h1 {
-    position: absolute;
-    width: 30rem;
-    height: 27px;
-
-    font-style: normal;
-    left: 5rem;
-    font-weight: 700;
-    font-size: 61px;
-    line-height: 27px;
-    /* identical to box height, or 33% */
-
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #2D3E3B;
+position: absolute;
+top: -5rem;
+left: -3rem;
+font-size: 50px;
 }
 
+.ceo img,
+.cso img,
+.cto img,
+.ccm img,
+.cmo img {
+    width: 139px;
+    height: 169px;
+}
+
+
 .ceo {
+    
     top: 10rem;
-    left: 60px;
+    left: 30px;
 }
 
 .cso {
     top: 10rem;
-    left: 340px;
+    left: 200px;
 }
 
 .cto {
     top: 32rem;
-    left: 60px;
+    left: 30px;
 }
 
 .cmo {
     top: 32rem;
-    left: 340px;
+    left: 200px;
 }
 
 .ccm {
     top: 52rem;
-    left: 200px;
+    left: 120px;
 }
 
 .joinin {  
     position: relative;
     width: 100%;
     height: 700px;
-    top: 210rem;
+    top: 205rem;
 
     background: linear-gradient(180deg, #FCFCFC 0%, #D1D4D5 100%);
 }
 
 .joinin h1 {
     position: absolute;
-    width: 200rem;
+    width: 20rem;
     height: 300rem;
-    left: 50px;
+    left: 40px;
     top: 5px;
 
     
     font-style: normal;
     font-weight: 700;
-    font-size: 51px;
+    font-size: 30px;
     line-height: 27px;
     /* identical to box height, or 33% */
     color: red;
@@ -1653,7 +1656,7 @@ color: #000000;
 
 #twitter {
     position: absolute;
-    left: 8.27%;
+    left: 5.27%;
     top: 15.71%;
 }
 
@@ -1661,7 +1664,7 @@ color: #000000;
     position: absolute;
     width: 65px;
     height: 65px;
-    left: 220.12px;
+    left: 100.12px;
     top: 15%;
 }
 
@@ -1669,7 +1672,7 @@ color: #000000;
     position: absolute;
     width: 65px;
     height: 65px;
-    left: 320.24px;
+    left: 190.24px;
     top: 15%;
 }
 
@@ -1677,7 +1680,7 @@ color: #000000;
     position: absolute;
     width: 64.04px;
     height: 64px;
-    left: 420.63px;
+    left: 280.63px;
     top: 15%;
 }
 
@@ -1686,42 +1689,41 @@ color: #000000;
     position: absolute;
     width: 100rem;
     height: 27px;
-    left: 40px;
+    left: 10px;
     top: 251px;
 
     font-style: normal;
     font-weight: 700;
-    font-size: 41px;
+    font-size: 27px;
     line-height: 27px;
 }
 
 input {
-    top: 30rem;
-    left: 3rem;
+    top: 25rem;
+    left: 1.5rem;
     width:20rem;
 
 }
 
 .sbtn {
-    top: 30rem;
-    left: 25rem;
+    top: 35rem;
+    left: 5.4rem;
 }
 
 footer {
     position: relative;
     width: 100%;
     height: 390px;
-    top: 210rem;
+    top: 205rem;
 
     background: #707573;
 }
 
 #logo1 {
-    position: absolute;
-    width: 287.76px;
-    height: 80.52px;
-    left: 50px;
-    top: 70px;
+    width: 191px;
+    height: 53px;
+    left: 12px;
+    top: 39px;
 }
 
 footer hr {
@@ -1731,26 +1733,26 @@ footer hr {
 }
 
 #iicon1 {
-    width: 216px;
-    height: 64px;
-    top: 17rem;
-    left: 5rem;
-    position: absolute;
+    width: 169px;
+    height: 51px;
+    left: 190px;
+    top: 258px;
+
 }
 
 #aicon1 {
-    width: 216px;
-    height: 64px;
-    top: 17rem;
-    left: 20rem;
     position: absolute;
+    width: 169px;
+    height: 51px;
+    left: 13px;
+    top: 258px;
 }
   
 footer p {
     position: absolute;
-    width: 200px;
+    width: 600px;
     height: 24px;
-    left: 20rem;
+    left: 0.6rem;
     top: 150px;
 
     font-style: normal;
@@ -1767,34 +1769,31 @@ footer p {
  }
 footer h5 {
     
-    position: absolute;
-    width: 135px;
-    height: 24px;
-    left: 400px;
-    top: 45px;
+    width: 118px;
+    height: 16px;
+    left: 13.5rem;
+    top: 1rem;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 16px;
-    /* or 100% */
+    font-size: 17px;
 
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.257143px;
-
-    color: #1B1B1B;
  }
 
  footer h6 {
-    position: absolute;
-    width: 508px;
-    height: 24px;
-    left: 20px;
-    top: 320px;
 
-    font-size: 14px;
-    line-height: 16px;
+    width: 354px;
+    height: 12px;
+    left: .5rem;
+    top: 21rem;
+
+    font-size: 10px;
+
+ }
+
+ #sp1 {
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 0;
  }
 
 

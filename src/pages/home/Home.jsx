@@ -162,25 +162,13 @@ welcome to DriveSfn…
 
       <h1>STATISTICS</h1>
 
-      <img src="/img/Ocar.png" alt="" />
+      <img id='car' src="/img/Ocar.png" alt="" />
       <img id='sp' src="/img/speedlimit.png" alt="" />
-      <div className="drects">
-      <div className="drect1">
-          <h1>1,300,294 km</h1>
-          <p>Total Driven Distance </p>
-      </div>
-      <div className="drect2">
-          <h1>780,176.4 km</h1>
-          <p>Safe Distance Driven </p>
-      </div>
-      <div className="drect3">
-          <h1>60%</h1>
-          <p>Percentage safe drives</p>
-      </div>
-      <div className="drect4">
-        <h1>2,345,973 <h2>$DriveS </h2></h1>
-        <p>SAFE DRIVING REWARDS TO DATE</p>
-      </div>
+      <div className="dcards">
+      <img id='dr1' src="/img/drect1.png" alt="" />
+      <img id='dr2' src="/img/drect2.png" alt="" />
+      <img id='dr3' src="/img/drect3.png" alt="" />
+      <img id='dr4' src="/img/drect4.png" alt="" />
       </div>
     </div>
 
