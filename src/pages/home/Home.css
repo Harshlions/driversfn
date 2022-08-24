@@ -32,7 +32,7 @@
 
 .banner h1 {
     position: absolute;
-    width: 50rem;
+    width: 2rem;
     height: 27px;
     left: 45.5rem;
     top: 20rem;
@@ -776,7 +776,7 @@ border-radius: 40px;
 .joinin h1 {
     position: absolute;
     width: 70rem;
-    height: 300rem;
+    height: 30rem;
     left: 300px;
     top: 5px;
 
@@ -1640,7 +1640,7 @@ font-size: 50px;
 .joinin h1 {
     position: absolute;
     width: 20rem;
-    height: 300rem;
+    height: 30rem;
     left: 40px;
     top: 5px;
 
@@ -1687,7 +1687,7 @@ font-size: 50px;
 .joinin h2 {
 
     position: absolute;
-    width: 100rem;
+    width: 22rem;
     height: 27px;
     left: 10px;
     top: 251px;
